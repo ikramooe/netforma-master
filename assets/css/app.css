@@ -6401,12 +6401,12 @@ ul.uk-nav-sub {
  ========================================================================== */
 .uk-breadcrumb > * > * {
   font-size: 0.875rem;
-  color: #999;
+  color: #ffffff;
 }
 
 /* Hover */
 .uk-breadcrumb > * > :hover {
-  color: #666;
+  color: #000000;
   text-decoration: none;
 }
 

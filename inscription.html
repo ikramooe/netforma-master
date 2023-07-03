@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <title>Quick Start | Home</title>
+    <link href='https://cdn.jsdelivr.net/npm/css.gg/icons/all.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+        <nav class="uk-navbar-container uk-border-bottom uk-box-shadow-small">
+            <div class="uk-container" uk-navbar>
+                <div class="uk-navbar-left uk-visible@m">
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a href="/">
+                                <img src="assets/images/logo.png" width="100" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="formations.html" style="padding: 42px 0 0 0;">formations</a>
+                        </li>
+                        <li>
+                            <a href="stages-et-apprentissage.html" style="padding: 42px 0 0 0;">Stages</a>
+                        </li>
+                        <li>
+                            <a href="formateurs.html" style="padding: 42px 0 0 0;">Formateurs</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="uk-navbar-right uk-visible@m">
+                    <ul class="uk-navbar-nav">
+                        <li hidden><a href="#">Active</a></li>
+                        <li>
+                            <a href="#contact" uk-scroll>
+                                <span class="uk-button uk-button-secondary">contactez-nous</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="uk-navbar-left uk-hidden@m">
+                    <a href="/">
+                        <img src="assets/images/logo.png" width="100" alt="">
+                    </a>
+                </div>
+                <div class="uk-navbar-right uk-hidden@m">
+                    <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#" uk-toggle="target: #offcanvas-nav"></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <header class="uk-section uk-background-cover" style="background-image: url(/assets/images/pexels-christina-morillo-1181329.jpg);">
+        <div class="uk-container">
+            <div class="uk-flex-center uk-grid uk-grid-stack" uk-grid="">
+                <div class="uk-width-2-5@m uk-first-column">
+                    <div class="uk-card uk-card-body uk-card-default uk-border-rounded" style=" BACKGROUND-COLOR: #ffffffed; color: #121212;">
+                        <h3 class="uk-text-center">Inscrivez-vous maintenant !</h3>
+                        <form class="uk-grid-small uk-grid uk-grid-stack" uk-grid="" method="POST" action="/register">
+                            <div class="uk-width-1-1 uk-first-column">
+                                <input type="hidden" name="_token" value="pWNnt8M5Whzw114Bfr4QIxemaQFzJPE2ziO1fTFp">                                <label class="uk-form-label" for="form-stacked-text">Nom &amp; Prénom</label>
+                                <div class="uk-form-controls">
+                                    <input class="uk-input" id="form-stacked-text" value="" autocomplete="name" type="text" name="name" required="">
+                                                                    </div>
+                            </div>
+                            <div class="uk-width-1-1 uk-grid-margin uk-first-column">
+                                <label class="uk-form-label" for="form-stacked-text">Adresse e-mail</label>
+                                <div class="uk-form-controls">
+                                    <input class="uk-input" id="form-stacked-text" value="" type="email" name="email" required="">
+                                                                    </div>
+                            </div>
+                            <div class="uk-width-1-1 uk-grid-margin uk-first-column">
+                                <label class="uk-form-label" for="form-stacked-text">Téléphone</label>
+                                <div class="uk-form-controls">
+                                    <input class="uk-input" id="form-stacked-text" name="telephone" type="number" value="" autocomplete="tel" required="">
+                                </div>
+                            </div>
+                            <div class="uk-width-1-1 uk-grid-margin uk-first-column">
+                                <label class="uk-form-label" for="form-stacked-text">Mot de passe</label>
+                                <div class="uk-form-controls">
+                                    <input class="uk-input" id="form-stacked-text" type="password" autocomplete="new-password" placeholder="Mot de passe" name="password" required="">
+                                </div>
+                            </div>
+                            <!--
+                                <div class="uk-width-1-1">
+                                    <label><input class="uk-checkbox" type="checkbox"> J'accepte <a href="#" class="uk-link-heading uk-text-muted">les conditions d'utilisation</a> et <a href="#" class="uk-link-heading uk-text-muted">la politique de confidentialité</a>.</label>
+                                </div>
+                            -->
+                            <div class="uk-width-1-1 uk-grid-margin uk-first-column">
+                                <button class="uk-button uk-button-large uk-button-primary uk-border-rounded uk-width-1-1">Créer un compte</button>
+                            </div>
+                        </form>
+                        <div class="uk-text-center uk-margin">
+                            <span style="font-weight: 500">Vous avez déjà un compte ? <a class="uk-link-heading uk-text-primary" href="/login.html">Se connecter</a></span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+   
+    
+    
+    
+    <section class="uk-section uk-section-primary" id="contact">
+        <div class="uk-container">
+            <div class="uk-child-width-auto uk-flex-middle uk-flex-between" uk-grid>
+                <div>
+                    <h2 class="uk-heading-small uk-text-bold uk-margin-remove">Contactez-nous</h2>
+                </div>
+                <div>
+                    <div class="uk-flex uk-flex-middle uk-margin-small-bottom">
+                        <div class="uk-box-small uk-flex uk-flex-center uk-flex-middle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                            </svg>
+                        </div>
+                        <div class="uk-text-bold uk-text-white uk-margin-left">0540 466 455</div>
+                    </div>
+                    <div class="uk-flex uk-flex-middle uk-margin-small-bottom">
+                        <div class="uk-box-small uk-flex uk-flex-center uk-flex-middle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                            </svg>
+                        </div>
+                        <div class="uk-text-bold uk-text-white uk-margin-left">0551 333 190</div>
+                    </div>
+                    <div class="uk-flex uk-flex-middle">
+                        <div class="uk-box-small uk-flex uk-flex-center uk-flex-middle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff" class="bi bi-envelope-paper-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M6.5 9.5 3 7.5v-6A1.5 1.5 0 0 1 4.5 0h7A1.5 1.5 0 0 1 13 1.5v6l-3.5 2L8 8.75l-1.5.75ZM1.059 3.635 2 3.133v3.753L0 5.713V5.4a2 2 0 0 1 1.059-1.765ZM16 5.713l-2 1.173V3.133l.941.502A2 2 0 0 1 16 5.4v.313Zm0 1.16-5.693 3.337L16 13.372v-6.5Zm-8 3.199 7.941 4.412A2 2 0 0 1 14 16H2a2 2 0 0 1-1.941-1.516L8 10.072Zm-8 3.3 5.693-3.162L0 6.873v6.5Z"/>
+                            </svg>
+                        </div>
+                        <div class="uk-text-bold uk-text-white uk-margin-left">formation@netforma-dz.com</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="uk-section uk-section-secondary">
+        <div class="uk-container">
+            <div class="uk-text-light" uk-grid>
+                <div class="uk-width-1-5@m">
+                    <img src="assets/images/logo-2.png" alt="">
+                </div>
+                <div class="uk-width-1-5@m">
+                    <p class="uk-text-bold uk-margin-remove-top">Navigation</p>
+                    <ul class="uk-nav uk-nav-default">
+                        <li><a href="stage-et-apprentissage.html">Stages</a></li>
+                        <li><a href="formations.html">Formations</a></li>
+                        <li><a href="formateurs.html">Formateurs</a></li>
+                    </ul>
+                </div>
+                
+                <div class="uk-width-1-5@m">
+                    <p class="uk-text-bold uk-margin-remove-top">Heading</p>
+                    <ul class="uk-nav uk-nav-default">
+                        <li><a href="#">A venir</a></li>
+                        <li><a href="#">A venir</a></li>
+                        <li><a href="#">A venir</a></li>
+                        <li><a href="#">A venir</a></li>
+                    </ul>
+                </div> 
+            </div>
+            <hr>
+            <div class="uk-flex-between" uk-grid>
+                <div>
+                    <span class="uk-text-small">&copy; 2023 NetForma</span>
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="offcanvas-nav" uk-offcanvas="overlay: true">
+        <div class="uk-offcanvas-bar">
+            <div>
+                <img src="assets/images/logo-icon.png" class="uk-display-block uk-margin-auto" width="80" alt="">
+            </div>
+            <ul class="uk-nav uk-nav-default uk-margin-medium-top">
+                <li class="uk-active"><a href="formations.html">Formations</a></li>
+                <li class="uk-active"><a href="stages-et-apprentissage.html">Stages</a></li>
+                <li class="uk-active"><a href="formateurs.html">Formateurs</a></li>
+            </ul>
+
+        </div>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
