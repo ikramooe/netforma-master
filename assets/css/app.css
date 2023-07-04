@@ -6414,7 +6414,7 @@ ul.uk-nav-sub {
 /* Active */
 .uk-breadcrumb > :last-child > span,
 .uk-breadcrumb > :last-child > a:not([href]) {
-  color: #666;
+  color: #ffffff;
 }
 
 /*
@@ -6430,7 +6430,7 @@ ul.uk-nav-sub {
   margin: 0 20px 0 calc(20px - 4px);
   /* 2 */
   font-size: 0.875rem;
-  color: #999;
+  color: #ffffff;
 }
 
 /* ========================================================================
