@@ -29,6 +29,10 @@
                         <li>
                             <a href="formateurs.html" style="padding: 42px 0 0 0;">Formateurs</a>
                         </li>
+                        <li>
+                            <a href="#contact" uk-scroll style="padding: 42px 0 0 0;">Contactez-nous</a>
+                        </li>
+                        
                     </ul>
                 </div>
 
@@ -36,9 +40,33 @@
                     <ul class="uk-navbar-nav">
                         <li hidden><a href="#">Active</a></li>
                         <li>
-                            <a href="#contact" uk-scroll>
-                                <span class="uk-button uk-button-secondary">contactez-nous</span>
+                            <a href="inscription.html" >
+                                <span class="uk-button uk-button-primary">Inscription</span>
                             </a>
+                        </li>
+                        <li>
+                            <a href="login.html" >
+                                <span class="uk-button uk-button-secondary">Connexion</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                            <div class="uk-inline">
+                                <button class="uk-button uk-button-default" type="button" aria-label="Toggle Dropdown"><span uk-icon="icon:  triangle-down"></span></button>
+                                <div uk-dropdown="mode: click; target: !.uk-button-group;">
+                                    <ul class="uk-nav uk-dropdown-nav">
+                                        <li class="uk-active"><a href="#">Active</a></li>
+                                        <li><a href="#">Item</a></li>
+                                        <li class="uk-nav-header">Header</li>
+                                        <li><a href="#">Item</a></li>
+                                        <li><a href="#">Item</a></li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li><a href="#">Item</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            </a>
+                            
                         </li>
                     </ul>
                 </div>
