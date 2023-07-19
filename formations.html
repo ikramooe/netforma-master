@@ -49,25 +49,19 @@
                                 <span class="uk-button uk-button-secondary">Connexion</span>
                             </a>
                         </li>
-                        <li>
-                            <a>
-                            <div class="uk-inline">
-                                <button class="uk-button uk-button-default" type="button" aria-label="Toggle Dropdown"><span uk-icon="icon:  triangle-down"></span></button>
-                                <div uk-dropdown="mode: click; target: !.uk-button-group;">
-                                    <ul class="uk-nav uk-dropdown-nav">
-                                        <li class="uk-active"><a href="#">Active</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-header">Header</li>
-                                        <li><a href="#">Item</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Item</a></li>
-                                    </ul>
-                                </div>
-                            </div>
+                        <li id="profile-dropdown" class="" >
+                            <a href="#">
+                                <span uk-icon="user"></span>
                             </a>
-                            
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">Profil</a></li>
+                                    <li><a href="#">Déconnexion</a></li>
+                                </ul>
+                            </div>
                         </li>
+                
+                       
                     </ul>
                 </div>
                 <div class="uk-navbar-left uk-hidden@m">
