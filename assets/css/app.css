@@ -6432,6 +6432,27 @@ ul.uk-nav-sub {
   font-size: 0.875rem;
   color: #ffffff;
 }
+/* Style pour le conteneur des images */
+.uk-slider-items .uk-panel {
+  position: relative;
+  height: 400px; /* Définissez la hauteur souhaitée pour les images */
+  overflow: hidden;
+}
+
+/* Style pour les images dans le slider */
+.uk-slider-items img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Style pour le texte centré sur les images */
+.uk-slider-items .uk-position-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 /* ========================================================================
    Component: Pagination
